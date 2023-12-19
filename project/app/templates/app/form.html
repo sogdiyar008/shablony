@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>form</title>
+</head>
+<body>
+    <form action="" method="">
+        <label>
+            ФИО <br>
+            <input type="text" name="name" class="fio" placeholder="Имя"> <br>
+            <input type="text" name="lastname" class="fio" placeholder="фамилие"> <br>
+            <input type="text" name="fathername" class="fio" placeholder="Отчество">
+        </label>
+
+        <br>
+        <br>
+
+        <label>
+            Email
+            <input type="email" name="email" >
+        </label>
+
+        <br>
+        <br>
+
+        <label>
+            муж
+            <input type="radio" name="sex" value="man" checked>
+        </label>
+
+        <label>
+            жен
+            <input type="radio" name="sex" value="woman">
+        </label>
+        <br>
+        <button type="submit" style="background-color: red; margin: 20px 0">Отправить</button>
+        <br><br><br><br><br>
+        <h2><p>типа работающая кнопка</p></h2>
+        <a href="{% url 'home' %}" style="background-color: red; color: black; font-size: 20px; border-radius: 50px; padding: 12px; margin: 10px">ОТПРАВИТЬ</a>
+
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>contacts</title>
+</head>
+<body>
+    <h1>Маи Контакты</h1>
+    <h2> МОИ КОНТАКТИКИ
+        {% for key, value in dates.items %}
+            <p>{{ key }}: {{value}}</p>
+        {% endfor %}
+    </h2>
+    <a href="{% url 'home' %}" style="background-color: blue; color: white; border-radius: 30px; padding: 12px; margin: 10px">Домой</a>
+    <a href="{% url 'about' %}" style="background-color: blue; color: white; border-radius: 30px; padding: 12px; margin: 10px">Информация обо Мине</a>
+</body>
+</html>

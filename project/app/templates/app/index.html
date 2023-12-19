@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>indexic</title>
+</head>
+<body>
+    <h1>Эта страница просто обо Мине</h1>
+    <h2>
+    <p>Я пока что благополучно учусь в {{ study }}</p>
+    <p>Моя группа: {{ group }}</p>
+    <p>Моя должность это - {{ speciality }}</p>
+    <p> я бы в будущем хотел бы быть: {{ after }}</p></h2>
+    <a href="contacts" style="background-color: blue; color: white; border-radius: 30px; padding: 12px; margin: 10px">Мои контакты</a>
+    <a href="about" style="background-color: blue; color: white; border-radius: 30px; padding: 12px; margin: 10px">Информация обо Мине</a>
+    <br><br><br><br><br><br><br><br>
+
+    <a href="{% url 'form' %}" style="background-color: red; color: black; font-size: 20px; border-radius: 50px; padding: 12px; margin: 10px">Формочка</a>
+
+
+</body>
+</html>
